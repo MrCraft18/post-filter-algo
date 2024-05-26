@@ -1,0 +1,12 @@
+{
+    "address": {
+        "streetNumber": null,
+        "steetName": null,
+        "city": "greenville",
+        "state": "tx",
+        "zip": "75401",
+        "county": null
+    },
+    "price": 127000,
+    "arv": 230000
+}

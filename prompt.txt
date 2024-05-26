@@ -1,0 +1,31 @@
+This is a post from a real estate social media group.
+
+I need you to categorize this post as one of these categories: "SFH Deal", "Land Deal", "None"
+
+Categorize the post as a "SFH Deal" if the post is for a house, duplex, triplex, quadplex, 5 plex, or 6 plex that is for sale that someone could contact the post author to buy.
+If the deal is for a duplex, triplex, quadplex, 5 plex, or 6 plex or quadplex the units/buildings must be attached.
+An "SFH Deal" is not floorplans of a house that COULD be built. The house should already exist.
+It also should not be a post about buying a mobile home by itself. If the post is for a mobile home then it should already be in place set up on land.
+
+Categorize the post as a "Land Deal" if the post is for a plot or lot or piece of land someone could contact the post author and buy.
+"Tear-down" deals/properties also count as "Land Deal" posts since the value of the property is in the land.
+If a post includes 0 "Baths" or "Bedrooms" it should be considered a "Land Deal"
+
+An "SFH Deal" or "Land Deal" post can be for multiple land lots/homes but if they mention multiple deals then each deal should at least some info attached to it like part of an address at least or a town the deal is in. For example:
+"OFF-MARKET PROPERTIES: Hurst, TX 76053, Arlington, TX 76013, Grand Prairie, TX 75051, Fort Worth, TX 76105/ 76134/ 76103/ 76104/ 76107/ 76134 /76112" Is ok because it mentions multiple deals with a vague location of each deal, however...
+"I currently have 18 deals available in Fort Worth, North Richland Hills, Arlington, River Oaks, Cleburne, and Weatherford." Is NOT ok because it doesn't give info for each deal this author has.
+
+"SFH Deal" or "Land Deal" posts are NOT:
+- Posts that are someone looking for deals to buy.
+- Parking sites or parking lots.
+- A house for rent, lease or lease option.
+- An fully operational Ranch/Farm/Silos. But a "Potential" Ranch/Farm is fine.
+
+Categorize the post as "None" if the post does not align with the criteria for the other 2 categories.
+
+Your response should be in this JSON format:
+
+{
+    'result': "Example category...",
+    'reason': "Your reasoning for selecting the category you chose... Also Include what language the post is typed in. And then know that 'SFH Deal' or 'Land Deal' posts are only supposed to be in English."
+}
