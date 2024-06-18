@@ -60,8 +60,8 @@ df['index'] = indices
 X_train, X_test, y_train, y_test, train_indices, test_indices = train_test_split(X, y, indices, test_size=0.1, random_state=1)
 
 # model = cuRF(n_estimators=2000, max_depth=30, random_state=42, max_features=0.6, n_streams=4)
-model = RandomForestClassifier(n_estimators=1000, max_depth=None, random_state=42, max_features=None, n_jobs=-1)
-# model = DecisionTreeClassifier(max_depth=None, random_state=42, max_features=None)
+# model = RandomForestClassifier(n_estimators=1000, max_depth=None, random_state=42, max_features=None, n_jobs=-1)
+model = DecisionTreeClassifier(max_depth=None, random_state=42, max_features=None)
 # model = KNeighborsClassifier(n_neighbors=11, algorithm='auto')
 model.fit(X_train, y_train)
 

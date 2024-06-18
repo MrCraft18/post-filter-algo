@@ -1,0 +1,15 @@
+You need to extract information from the provided post for an SFH deal into a JSON format using this template:
+
+{
+    "bundle": If the post author implies that each parcel is supposed to be sold together as a bundle/package deal then make this the boolean value true. Otherwise make it false,
+    "parcels": [
+        {
+            "city": the city the parcel is in if its mentioned otherwise make this null make sure its just the city name and not a "region of the city. For example if "South Dallas" is stated then only put it as "Dallas",
+            "state": the state in the parcel is in using 2 letter format if its mentioned otherwise make this null only put this if the state is stated in the post,
+            "zip": the zip the parcel is in if its mentioned otherwise make this null,
+            "price": the price of the parcel if its mentioned otherwise make this null,
+            "arv": the stated arv of the parcel if its mentioned otherwise make this null
+        },
+        (Repeat for each parcel in the post)
+    ]
+}
